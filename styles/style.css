@@ -1,0 +1,80 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* basic reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;   
+}
+/* Navbar */
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: white;
+
+}
+.links-nav{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.links-nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+.reg-button{
+    background-color: #1D4ED8;
+    color: white;
+    padding: 15px 35px;
+     border-radius: 12px;
+}
+/* hero section css */
+.hero-banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/banner.jpg');
+    /* image added banner */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+/* hero content */
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+/* italic */
+.hero-content i {
+    font-style: italic;
+    color: #f9fafb;
+}
+/* hero paragarph */
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.hero-reg-button {
+    background-color: #1D4ED8;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    /* for down the button from paragraph */
+    margin-top: 500px; 
+}
