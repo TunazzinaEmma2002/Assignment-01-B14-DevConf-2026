@@ -78,3 +78,50 @@
     /* for down the button from paragraph */
     margin-top: 500px; 
 }
+/* speaker section */
+ .speakers-section{
+    padding: 80px 8%;
+    text-align: center;
+ }
+ .speakers-section h1{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #000102;
+ }
+ .speakers-grid{
+    display: grid;
+    /* 2 cards in each line */
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+ }
+ .speaker-card{
+    border: 1px solid #e5e7eb;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    transition: transform 0.3 ease;
+ }
+ .speaker-card :hover{
+    transform: translateY(-5px);
+ }
+ .speaker-card img{
+    width: 100%;
+    border-radius:8px ;
+    margin-bottom: 15px;
+ }
+ .role{
+    color: #2563EB;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+ }
+ .speaker-card h3{
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+ }
+ .bio{
+    font-size: 0.9rem;
+    color: #6b7280;
+    line-height: 1.5;
+ }
