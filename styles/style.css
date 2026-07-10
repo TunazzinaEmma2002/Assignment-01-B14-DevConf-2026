@@ -125,3 +125,69 @@
     color: #6b7280;
     line-height: 1.5;
  }
+.pricing-section{
+    padding: 80px 8%;
+    text-align: center;
+}
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+.price-card{
+    border: 1px solid #e5e7eb;
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: left;
+}
+.price-card.featured{
+    background-color: #0D1B2A;
+    color: white;
+}
+.price-card h3{
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.price-card h1{
+    font-size: 3rem;
+    margin: 10px 0;
+}
+.price-card ul{
+    list-style: none;
+    margin: 25px 0;
+}
+.price-card ul li {
+  margin-bottom: 12px;
+    font-size: 0.9rem;
+    position: relative;
+    padding-left: 20px;
+}
+/* for dots on list */
+.price-card ul li::before {
+    content: "•"; 
+    color: #2563EB; 
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+/* buttons part */
+.btn-outline{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2563EB;
+    background: transparent;
+    border-radius: 8px;
+    color: #2563EB;
+    cursor: pointer;
+}
+.btn-fill{
+    width: 100%;
+    padding: 12px;
+    background: #2563EB;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
