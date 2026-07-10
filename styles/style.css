@@ -191,3 +191,85 @@
     color: white;
     cursor: pointer;
 }
+/* Generated a relevant section with the help of AI  */
+/* Hackathon Section CSS */
+.hackathon-section {
+    padding: 80px 8%;
+    background: linear-gradient(135deg, #5449cb, #151315); /* ডার্ক ব্লু গ্রেডিয়েন্ট */
+    color: white;
+    text-align: center;
+}
+
+.hackathon-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hackathon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* ৩টি কলাম */
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.hack-card {
+    background: rgba(255, 255, 255, 0.1); /* হালকা ট্রান্সপারেন্ট ব্যাকগ্রাউন্ড */
+    padding: 30px;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+
+.hack-card:hover {
+    transform: translateY(-10px); /* মাউস নিলে কার্ডটি একটু উপরে উঠবে */
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.hack-card h3 {
+    margin: 15px 0 10px 0;
+    font-size: 1.2rem;
+}
+
+.hack-card p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.hack-card i {
+    display: block;        /* icon line*/
+    margin-bottom: 15px;   /* text gap */
+    color: #60A5FA;       /*color*/
+}
+/* Footer styles */
+.footer{
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    padding: 40px 8%;
+    text-align: center;
+    border-top: 1px solid #1e293b;
+
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footer-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+/* mobile responsive code  */
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer-links a {
+        margin: 0 10px;
+    }
+}
